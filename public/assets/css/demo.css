@@ -1,0 +1,150 @@
+.container{
+    max-width: 1200px;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+} 
+.input-wrapper{
+    display: block;
+    box-sizing: border-box;
+    padding: 35px 0;
+    margin: 50px 20px 50px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+    background-color: #fff;
+}
+.input-wrapper .input-inner{
+    display: block;
+    box-sizing: border-box;
+}
+.input-wrapper .input-inner>h2{
+    margin: 0 0 20px 0;
+    color: navy;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.input-wrapper .input-inner .main-feild-outer{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area{
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area label{
+    text-transform: capitalize;
+    color: #000;
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area input{
+    text-align: left;
+    display: block;
+    outline: none;
+    background-color: lightblue;
+    border: 1px solid lightblue; 
+    padding: 10px 6px 10px 6px; 
+    min-width: 400px;
+} 
+.input-wrapper .input-inner .main-feild-outer .input-area .gender-block{
+    display: flex;
+    box-sizing: border-box;
+    padding: 8px 0;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area .gender-block .gender{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area .gender-block .gender input[type = 'radio']{
+    padding: 0;
+    min-width: 16px;
+    min-height: 16px;
+    margin-left: 8px;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area .gender-block .gender:last-child{
+    margin-left: 20px;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area .hobby-block{
+    display: flex;
+    box-sizing: border-box;
+    padding: 8px 0;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area .hobby-block .hobby{
+    display: flex;
+    box-sizing: border-box;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area .hobby-block .hobby input[type = 'checkbox']{
+    padding: 0;
+    min-width: 16px;
+    min-height: 16px;
+    margin-left: 8px;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area .hobby-block .hobby label{
+    margin-left: 10px;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area select{
+    text-align: left;
+    display: block;
+    outline: none;
+    background-color: lightblue;
+    border: 1px solid lightblue; 
+    padding: 10px 6px 10px 6px; 
+    min-width: 400px;
+}
+.input-wrapper .input-inner .main-feild-outer .input-area button{
+    padding: 10px 30px 10px 30px;
+    min-width: 118px;
+    background: sandybrown;
+    border: 1px solid saddlebrown;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.data-wrapper{
+    display: block;
+    box-sizing: border-box;
+}
+.data-wrapper .data-inner{
+    display: block;
+    box-sizing: border-box;
+}
+.data-wrapper .data-inner table thead{
+    background-color: cornflowerblue;
+}
+.data-wrapper .data-inner table thead th{
+    padding: 10px;
+    color: rgb(0 0 0 / 0.8);
+    font-size: 16px;
+    font-weight: 500;
+}
+.data-wrapper .data-inner table tbody tr{
+    background-color: aliceblue;
+
+}
+.data-wrapper .data-inner table tbody tr td{
+    padding: 0 10px;
+    color: rgb(0 0 0 / 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+.data-wrapper .data-inner table tbody tr .btn{
+    padding: 0;
+    background-color: lightblue;
+}
+.data-wrapper .data-inner table tbody tr .btn button{
+    background-color: lightblue;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
+.data-wrapper .data-inner table tbody tr .btn button svg{
+    color: #000;
+}
